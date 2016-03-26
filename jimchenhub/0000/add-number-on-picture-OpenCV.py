@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 img = cv2.imread("./head.jpg")
-width, height = img.shape[0], img.shape[1]
+height, width = img.shape[0], img.shape[1]
 font=cv2.FONT_HERSHEY_SIMPLEX
 cv2.putText(img,'4',(width - 40, 40), font, 1,(0, 0, 255),2)
 

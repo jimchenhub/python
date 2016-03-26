@@ -10,7 +10,7 @@ width, height = img.size[0], img.size[1]
 print width, height
 # Draw the image
 draw = ImageDraw.Draw(img)
-draw.text((width - 20, height - 20), "4", (255, 0, 0))
+draw.text((width - 20, 20), "4", (255, 0, 0))
 del draw
 
 # save the image 
